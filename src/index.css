@@ -1,0 +1,74 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+  background:
+    radial-gradient(circle at top,
+      #1e3a8a 0%,
+      #0b1220 45%,
+      #05060a 100%
+    );
+
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons global feel */
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Smooth scrolling (for future navbar links) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection highlight */
+::selection {
+  background: #3b82f6;
+  color: white;
+}
+
+/* Headings default */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* Optional: subtle scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+html {
+  scroll-behavior: smooth;
+}
