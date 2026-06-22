@@ -18,8 +18,8 @@ function Projects() {
       title: "Portfolio Website",
       desc: "Personal developer portfolio built with React + Vite.",
       tech: "React + Vite",
-      link: "#",
-      github: "#",
+      link: "https://portfolio-50qv2jebg-xmon.vercel.app",
+    github: "https://github.com/Gitanshika/portfolio",
     },
   ];
 
